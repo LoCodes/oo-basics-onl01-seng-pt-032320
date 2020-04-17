@@ -16,4 +16,5 @@ class Book
     @title
     @properties
     @turn_page
+  end 
 end
