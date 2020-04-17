@@ -1,14 +1,13 @@
 # Book
 #   ::new
-#     gets initialized with a title (FAILED - 1)
+#     gets initialized with a title
 #   properties
-#     has a title (FAILED - 2)
-#     has an author name (FAILED - 3)
-#     has a page count (FAILED - 4)
-#     has a genre (FAILED - 5)
+#     has a title
+#     has an author name
+#     has a page count
+#     has a genre
 #   #turn_page
-#     can turn the page (FAILED - 6)
-
+#     can turn the page
 
 
 class Book
