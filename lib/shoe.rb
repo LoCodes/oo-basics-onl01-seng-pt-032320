@@ -6,9 +6,7 @@ class Shoe
   end
 
   def cobble
+    @coniditon = "new"
     puts "Your shoe is as good as new!"
   end
 end
-
-old = Shoe.new("new")
-old.cobble 
