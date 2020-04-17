@@ -9,6 +9,15 @@
 #   #turn_page
 #     can turn the page
 
+class Book
+  attr_accessor :
+  attr_reader :title 
+
+  def initialize(title)
+    @title = title
+  end
+
+end
 
 # class Book
 #   #attr_accessor :title
