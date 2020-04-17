@@ -17,10 +17,8 @@ class Book
     @title = title
     @properties = properties
     @turn_page = turn_page
-  end 
-
-    def title
-      @title
-    end
   end
-end
+  def title
+    @title
+  end
+end 
