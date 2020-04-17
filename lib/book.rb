@@ -12,7 +12,7 @@
 
 
 class Book
-  def initialize(title, properties, turn_page)
+  def initialize(title)
     @title = title
     @properties = properties
     @turn_page = turn_page
