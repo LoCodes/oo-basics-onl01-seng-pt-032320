@@ -10,7 +10,7 @@
 #     can turn the page
 
 class Book
-  attr_accessor :title, :author, :page_count, :genre 
+  attr_accessor :title, :author, :page_count, :genre
   attr_reader :title
 
   def initialize(title)
@@ -20,7 +20,7 @@ class Book
   def turn_page
     @turn_page
     puts "Flipping the page...wow, you read fast!"
-  end 
+  end
 
 end
 
