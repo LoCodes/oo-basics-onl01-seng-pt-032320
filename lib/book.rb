@@ -12,11 +12,12 @@
 
 
 class Book
-  attr_accessor :title 
+  attr_accessor :title
   def initialize(title, properties, turn_page)
     @title = title
     @properties = properties
     @turn_page = turn_page
+  end 
 
     def title
       @title
