@@ -50,7 +50,7 @@ class Book
 
   def turn_page
     @turn_page
-    put "Flipping the page...wow, you read fast!"
+    puts "Flipping the page...wow, you read fast!"
   end
 
 
